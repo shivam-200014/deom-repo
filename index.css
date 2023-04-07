@@ -1,3 +1,29 @@
 .demo{
     text-align: center;
 }
+
+.t1{
+
+    border: solid black 2px;
+    padding: auto;
+    border-collapse: collapse;
+    width: 100%;
+    /* text-align: center; */
+}
+
+th,td{
+    border: solid black 1px;
+    padding: auto;
+    text-align: center;
+
+}
+
+tr:nth-child(even)
+{
+    background-color:lightgreen;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+}
